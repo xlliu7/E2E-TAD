@@ -13,6 +13,7 @@ This paper presents an empirical study of end-to-end temporal action detection (
 <!-- We're currently refactoring the codebase to make it a generic framework for end-to-end temporal action detection. We hope to release the  -->
 We hope that E2E-TAD can accelerate the research and applications of end-to-end temporal action detection. 
 
+Update 2022/6/9: We plan to release the code in the second half of June.
 
 ## Models
 ### THUMOS14
@@ -40,6 +41,7 @@ SR: spatial (image) resolution. TR: temporal resolution, measured by the samplin
   title={An Empirical Study of End-to-end Temporal Action Detection},
   author={Liu, Xiaolong and Bai, Song and Bai, Xiang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20010-20019},
   year={2022}
 }
 ```
