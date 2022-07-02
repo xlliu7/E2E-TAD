@@ -13,7 +13,8 @@ This paper presents an empirical study of end-to-end temporal action detection (
 <!-- We're currently refactoring the codebase to make it a generic framework for end-to-end temporal action detection. We hope to release the  -->
 We hope that E2E-TAD can accelerate the research and applications of end-to-end temporal action detection. 
 
-Update 2022/6/9: We plan to release the code in the second half of June.
+~~Update 2022/6/9: We plan to release the code in the second half of June~~. 
+Postponed. Sorry for that. I am busy with my thesis recently. Hope you understand it. 
 
 ## Models
 ### THUMOS14
