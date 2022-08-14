@@ -14,9 +14,9 @@ This paper presents an empirical study of end-to-end temporal action detection (
 We hope that E2E-TAD can accelerate the research and applications of end-to-end temporal action detection. 
 
 ## TODOs
-[x] Inference code
+- [x] Inference code
 
-[ ] Training code
+- [ ] Training code
 
 ## Updates
 Aug 14, 2022: The inference code for THUMOS14 dataset is released.
