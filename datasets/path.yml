@@ -7,5 +7,5 @@ thumos14:
     ft_info_file: 'data/thumos14/th14_i3d2s_ft_info.json'
 
   img:
-    local_path: '/share/action/thumos14/img{}fps'
+    local_path: data/thumos14/thumos14_img{}fps
     ft_info_file: 'data/thumos14/th14_img{}fps_info.json'

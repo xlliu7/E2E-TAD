@@ -13,6 +13,8 @@ This paper presents an empirical study of end-to-end temporal action detection (
 <!-- We're currently refactoring the codebase to make it a generic framework for end-to-end temporal action detection. We hope to release the  -->
 We hope that E2E-TAD can accelerate the research and applications of end-to-end temporal action detection. 
 
+This code is an extended version of TadTR. It supports both video inputs and video feature inputs. If you want to run with video features, please refer to the instruction [here](https://github.com/xlliu7/TadTR/blob/master/README.md).
+
 ## TODOs
 - [x] Inference code
 
@@ -95,7 +97,7 @@ CFG_PATH is the path to the YAML-format config file that defines the experimenta
 
 
 ## 3.Training by Yourself 
-To be done.
+To be done. We are still checking the codebase. Plan to add official support of training in the next week.
 <!-- (Preview version) -->
 
 <!-- We include the training code. But it is still being tested. You can try it and report problems to me. -->
