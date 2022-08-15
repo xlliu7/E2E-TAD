@@ -2,7 +2,7 @@
 
 ## 1. Prepare data
 - ActivityNet-style annotations:
-Our dataloader supports any dataset as soon as the annotation file has the same format as ActivityNet. See the example below. The path of this annotation file is denoted as `ANNO_PATH`.
+Our dataloader supports any dataset as long as the annotation file has the same format as ActivityNet. See the example below. The path of this annotation file is denoted as `ANNO_PATH`.
 
 ```JSON
 {
@@ -11,7 +11,7 @@ Our dataloader supports any dataset as soon as the annotation file has the same 
         "duration" : 12,
         "annotations": [
             {
-                "class": "Futsal",
+                "label": "Futsal",
                 "segment": [2.0, 18.0]
             }
         ]
@@ -46,9 +46,9 @@ YOUR_DATASET:
 ## 3. Write a config file
 Please refer to the existing config files.
 You need to set some parameters. For example, 
-- slice_len: if the videos are long and the actions are short, you may need to cut videos into slices (windows). The slice_len should be set to a value such that most actions are shorter than the corresponding duration. (slice_len = slice_duration * fps)
-- the number of queries: it should be set to a value that is slightly larger than the maximum number of actions per video.
+- slice_len: If the videos are long and the actions are short, you may need to cut videos into slices (windows). The slice_len should be set to a value such that most actions are shorter than the corresponding duration. (slice_len = slice_duration * fps)
+- the number of queries: It should be set to a value that is slightly larger than the maximum number of actions per video.
 
 ## 4. Training and evluation
-Training and evaluation process will be the same as THUMOS14.
+Training and evaluation process is the same as THUMOS14.
 
