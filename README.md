@@ -97,7 +97,7 @@ CFG_PATH is the path to the YAML-format config file that defines the experimenta
 
 
 ## 3.Training by Yourself 
-To be done. We are still checking the codebase. Plan to add official support of training in the next week.
+To be done. We are still checking the codebase. Plan to add official support of training ~~in the next week~~ later.
 <!-- (Preview version) -->
 
 <!-- We include the training code. But it is still being tested. You can try it and report problems to me. -->
