@@ -21,6 +21,8 @@ This code is an extended version of TadTR. It supports both video inputs and vid
 - [ ] Training code
 
 ## Updates
+Feb 19, 2023: Fix a bug in loss calculation.
+
 Aug 14, 2022: The inference code for THUMOS14 dataset is released.
 
 Apr, 2022: This repo is online.

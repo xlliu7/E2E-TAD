@@ -326,7 +326,7 @@ class SetCriterion(nn.Module):
         pred_actionness = outputs['pred_actionness']
         loss_actionness = F.l1_loss(pred_actionness.view(-1), gt_iou.view(-1).detach())   
 
-        losses['loss_iou'] = loss_actionness
+        losses['loss_actionness'] = loss_actionness
         return losses
 
     def _get_src_permutation_idx(self, indices):
@@ -501,7 +501,7 @@ def build(args):
 
     weight_dict = {
         'loss_ce': args.cls_loss_coef, 
-        'loss_seg': args.seg_loss_coef,
+        'loss_segments': args.seg_loss_coef,
         'loss_iou': args.iou_loss_coef}
 
     if args.act_reg:
